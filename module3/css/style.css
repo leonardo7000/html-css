@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-image: url("../img/page-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.content {
+    width: 480px;
+    background-color: white;
+    margin: auto;
+    padding: 60px 37px 44px;
+    font-family: Arial, sans-serif;
+}
+
+.article {
+    margin-bottom: 51px;
+}
+.article-second {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 52px;
+}
+.article-text {
+    margin-bottom: 37px;
+}
+.article:last-child {
+    margin-bottom: 0;
+}
+.title {
+    font-family: 'Pathway Gothic One', sans-serif ;
+    text-transform: uppercase;
+    color: #263555;
+    font-size: 25px;
+    margin-bottom: 27px;
+
+}
+.picture {
+    display: block;
+    margin: 0 auto 27px;
+}
+.sub-title {
+    font-size: 14px;
+    color: #263555;
+    line-height: 19px;
+    margin-bottom: 22px;
+}
+.sub-title-mod {
+    margin-bottom: 15px;
+}
+.text {
+    color: #4e5050;
+    font-size: 12px;
+    line-height: 17px;
+}
+ul {
+    list-style: none;
+}
+.list-article-item {
+    margin-bottom: 25px;
+}
+.list-article-item:last-child {
+    margin-bottom: 0;
+}
+
+.list-item {
+    color: #263555;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 18px;
+}
+.list-item:last-child {
+    margin-bottom: 0;
+}
+
+.list {
+    display: inline-block;
+    vertical-align: top;
+}
+.list:last-child {
+    margin-left: 50px;
+}
